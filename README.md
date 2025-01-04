@@ -67,7 +67,7 @@ Ascendly-AI is a powerful Next.js application that leverages AI to generate enga
    ```bash
    npx drizzle-kit push 
   ```
-5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+7. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Deployment
 
