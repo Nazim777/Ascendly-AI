@@ -10,7 +10,7 @@ import {
   SignOutButton
 } from "@clerk/nextjs";
 import { useState, useEffect } from "react";
-import { Menu, Mountain,  X } from "lucide-react";
+import { Menu,X } from "lucide-react";
 
 export function Navbar() {
   const { userId } = useAuth();
@@ -36,7 +36,6 @@ export function Navbar() {
         <div className="flex flex-wrap justify-between items-center max-w-6xl mx-auto">
           <div className="flex items-center">
             <Link href="/" className="flex items-center space-x-2">
-              <Mountain className="w-8 h-8 text-blue-500" />
               <span className="text-xl sm:text-2xl font-bold text-white">
               Ascendly AI
               </span>
