@@ -129,7 +129,7 @@ const Dashboard = () => {
 
     setIsLoading(true);
     try {
-      const model = genAI.getGenerativeModel({ model: "gemini-1.5-pro" });
+      const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
       let promptText = `Generate ${contentType} content about "${prompt}".`;
       if (contentType === "twitter") {
